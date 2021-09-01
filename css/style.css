@@ -1,0 +1,17 @@
+:root{
+    --color-very-dark-megenta: hsl(300, 43%, 22%);
+    --color-soft-pink:hsl(333, 80%, 67%);
+    --color-dark-grayish-megenta: hsl(303, 10%, 53%);
+    --color-light-grayish-megenta: hsl(300, 24%, 96%);
+    --color-white: hsl(300, 24%, 96%);
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Spartan', sans-serif;
+    font-size: 1.5rem;
+}
+
