@@ -23,11 +23,11 @@ body {
 
 /* Indentation */
 
-.indent-left-small{
+.indent-small{
     margin-left: 0rem;
 }
 
-.indent-left-medium{
+.indent-medium{
     margin-left: 00rem;
 }
 
@@ -49,7 +49,7 @@ body {
   background-color: var(--color-light-grayish-megenta);
   border-radius: 15px;
   margin-bottom: 2rem;
-  padding: 0.8rem;
+  padding: 0.3rem;
   max-width: 400px;
 }
 
@@ -77,10 +77,10 @@ body {
     .review__title{
         margin-left: 5rem;
     }
-    .indent-left-small{
+    .indent-small{
         margin-left: 10rem;
     }
-    .indent-left-medium{
+    .indent-medium{
         margin-left: 20rem;
     }
     .review__star{
