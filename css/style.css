@@ -183,3 +183,45 @@ body {
     margin-top: 10rem;
   }
 }
+
+
+/* Main Heading */
+
+.heading-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.main-heading{
+  text-align: center;
+  color: var(--color-very-dark-megenta);
+  font-size: 2.2rem;
+  letter-spacing: -2px;
+  word-spacing: 3px;
+  flex-grow: 0;
+  max-width: 360px;
+}
+
+.main-description{
+  text-align: center;
+  color: rgb(119, 115, 115);
+  line-height: 1.8;
+  font-size: 1.7rem;
+  max-width: 500px;
+}
+
+@media screen  and (min-width:1024px) {
+  .heading-container{
+    align-items: flex-start;
+  }
+  .main-heading{
+    text-align: left;
+  }
+  .main-description{
+    text-align: left;
+    width: 550px;
+  }
+}
