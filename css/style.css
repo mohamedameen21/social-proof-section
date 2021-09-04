@@ -293,3 +293,11 @@ body {
     margin: 0 auto;
   }
 }
+
+/* Desigin for tablet */
+
+@media screen  {
+  .heading-container{
+    margin-bottom: 2rem;
+  }
+}
