@@ -95,10 +95,11 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  flex-shrink: 1;
 }
 
 .card {
-  width: 85%;
+  width: 70%;
   max-width: 300px;
   background-color: var(--color-very-dark-megenta);
   color: var(--color-white);
@@ -241,9 +242,8 @@ body {
   width: 100vw;
   height: 100vh;
   align-items: center;
-  background: url(../images/bg-pattern-top-mobile.svg);
   background-repeat: no-repeat;
-  margin-bottom: 10%;
+  margin-bottom: 5rem;
 }
 
 @media screen and (min-width: 1024px) {
@@ -275,6 +275,10 @@ body {
   }
 
   .body-flex {
+    background-image: url(../images/bg-pattern-top-desktop.svg),
+      url(../images/bg-pattern-bottom-desktop.svg);
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
@@ -284,7 +288,7 @@ body {
     margin: 2rem 0;
   }
 
-  .card-container{
+  .card-container {
     width: 100%;
     margin: 0 auto;
   }
