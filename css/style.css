@@ -296,7 +296,7 @@ body {
 
 /* Desigin for tablet */
 
-@media screen  {
+@media screen and (min-width:600px) {
   .heading-container{
     margin-bottom: 2rem;
   }
